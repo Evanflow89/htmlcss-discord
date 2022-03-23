@@ -33,6 +33,7 @@ h1 {
     background-color: white;
     border: 1px solid #3161e0;
     font-size: 12px;
+    
 }
 
 .btn.bt-white2 {
@@ -59,8 +60,9 @@ h1 {
     margin: auto;
 }
 
-header {
-    padding-top: 30px;
+.logo, .btn.bt-white {
+    
+    margin-top: 16px;
 }
 
 .hero {
@@ -79,6 +81,7 @@ header {
     display: inline-block;
     width: 80%;
     text-align: center;
+    margin-top: 20px;
    
 
 }
@@ -111,4 +114,17 @@ header {
     font-weight: 400;
     text-align: center;
     line-height: 1.5;
+}
+
+.containerMain {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.boxImg {
+    margin-top: 50px;
+}
+
+.boxImg img{
+    max-height: 300px;
 }
