@@ -6,3 +6,22 @@
 }
 
 /*--- /RESET ---*/
+
+/*--- COMMON ---*/
+
+.container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    float: left;
+}
