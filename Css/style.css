@@ -7,12 +7,36 @@
 
 /*--- /RESET ---*/
 
+/*--- TEXT ---*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--- BUTTONS ---*/
+.bt-white {
+    vertical-align: middle;
+    display: inline-block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 8px 12px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+
 /*--- COMMON ---*/
 
 .container {
     max-width: 1000px;
     position: relative;
     margin: auto;
+}
+
+header {
+    padding-top: 30px;
+    height: 80px;
 }
 
 .hero {
@@ -24,4 +48,18 @@
 
 .logo {
     float: left;
+}
+
+.mainNav {
+    text-align: center;
+}
+
+.mainNav li, .mainNav li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.mainNav li a {
+    color: white;
+    padding-right: 20px;
 }
